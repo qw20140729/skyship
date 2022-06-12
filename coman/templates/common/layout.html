@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-inverse" style="border-radius: 0px">
+<nav class="navbar navbar-default" style="border-radius: 0px">
   <div class="container-fluid col-lg-10 col-lg-offset-1" >
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -27,14 +27,17 @@
         <li><a href="/">材料库</a></li>
       </ul-->
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">登录</a></li>
+        <li><a href="#">请登录</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
-{% block content %}
-{% endblock %}
+<div class="container" style="min-height: 600px">
+{% block content %}  {% endblock %}
+  </div>
+<footer class="text-center">
+  北京天舟上元信息技术有限公司   @2022 www.skyship.com
+</footer>
 <script src="/static/plugins/jquery.min.js"></script>
 <script src="/static/plugins/bootstrap_v3/js/bootstrap.min.js"></script>
 </body>
