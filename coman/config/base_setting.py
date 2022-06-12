@@ -7,7 +7,6 @@
 Debug = True
 
 SECRET_KEY = "qyanls"
-
 DEBUG_TB_INTERCEPT_REDIRECTS = False
 
 
